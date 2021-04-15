@@ -1,0 +1,17 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- main.py	(revision 8300f9b6297533f48dbf9e94f96adac44d1c94db)
++++ main.py	(date 1618486894985)
+@@ -4,4 +4,6 @@
+ 
+ print('this is 1st line of project form pycharm into Git')
+ 
+-print('updating the code')
+\ No newline at end of file
++print('updating the code')
++
++print('create a branch')
+\ No newline at end of file
