@@ -106,14 +106,20 @@ $ git push --set-upstream origin master
 ###### #####################################################
 # 4. Git Pull
 ###### #####################################################
-4.1 Pull remote branch to your branch
+Pull remote branch to your branch
+```
 $git branch branch1
 $git checkout branch1
+```
 
-Pull all files:
+## 4.1 Pull all files:
+```
 $git pull origin master
+```
 
-Pull specific file:
+## 4.2 Pull specific file:
+```
 $git fetch –all
 $git checkout origin/master -- README.md   pulling README.md file
+```
 
