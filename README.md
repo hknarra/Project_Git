@@ -56,7 +56,7 @@ Merge conflicts happen:
 1.	when people make different changes to the same line of the same file.
 2.	when one person edits a file, and another person deletes the same file.
 
-## 3.1. Resolve Merge conflict on same line and same file:
+### 3.1. Resolve Merge conflict on same line and same file:
 ```
 In branch_conflcit1:
 Edit file main2.py 2nd line
@@ -83,7 +83,7 @@ $git commit -m ‘commit after resolving merge conflict’
 $git push
 ```
 
-## 3.2. Removed file, merge conflicts:
+### 3.2. Removed file, merge conflicts:
 ```
 $git checkout branch1	2nd user branch
 $git rm main2.py		file deleted
@@ -112,12 +112,12 @@ $git branch branch1
 $git checkout branch1
 ```
 
-## 4.1 Pull all files:
+### 4.1 Pull all files:
 ```
 $git pull origin master
 ```
 
-## 4.2 Pull specific file:
+### 4.2 Pull specific file:
 ```
 $git fetch –all
 $git checkout origin/master -- README.md   pulling README.md file
