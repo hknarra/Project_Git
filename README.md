@@ -123,3 +123,15 @@ $git fetch –all
 $git checkout origin/master -- README.md   pulling README.md file
 ```
 
+###### #####################################################
+# 5. Reset Last commit
+###### #####################################################
+```
+$git reset HEAD~		to undo files added, commited
+
+Remote mail from bit bucket doesn’t match with local mail id.
+$git commit --amend --author=”git_name <git_mail>”
+```
+
+
+
