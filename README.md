@@ -8,7 +8,7 @@ which git #gets get location
 git --verison #gets version
 ```
 
-### 1.2 Git Config
+### 1.2 Git Config 
 ```
 System level configuration: 
 $git config --system
