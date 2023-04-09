@@ -1,1 +1,2 @@
-# File to check pull or fetch / update project
+# File to check below command
+git pull origin master
