@@ -63,7 +63,7 @@ $git push  		  	        #Push to repo
 ```
 
 ###### #####################################################
-### 2.3 Working in a branch:
+### 2.3 Working in a branch and change to master and merge branch:
 ###### #####################################################
 ```
 $cd git_project   	#move to the project directory  
@@ -99,6 +99,31 @@ $git push --set-upstream origin master
 Delete the hotfix branch:
 $git branch -d branch1
 ```
+
+###### #####################################################
+### 2.3 Working in a branch and creating pull request
+###### #####################################################
+```
+$git checkout 'branch1'      #check out to branch1
+$git pull origin master      #Pull other changes
+
+--work on the code
+$git add.
+$git commit -m 'commit-TR-2235_pull_for_'
+$git push -u origin <branch_name>
+link is generated --check with this link in browser or go to bitbucket and check
+-->in git --my work 
+-->you get option as Create pull request (select this)
+-->give branch details (destination)
+-->give reviewer details done.
+-->PR successful (build green)
+PR marked ad “needs to work” work on the errors.
+
+```
+
+
+
+
 
 ###### #####################################################
 # 3. Merge conflicts:
