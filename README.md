@@ -1,5 +1,58 @@
 ###### #####################################################
-# 1. Working in Master branch:
+# 1. Git Basics:
+###### #####################################################
+### 1.1. Basics 
+```
+which git #gets get location
+
+git --verison #gets version
+```
+
+### 1.2 Git Config
+```
+System level configuration: 
+$git config --system
+
+User level configuration(Changing username, email): 
+$git config --global user.name “******”
+$git config --global user.email “*****@domain.com”
+ 
+To see configured list?  
+$git config --list   		to see the configured file
+$git config user.name		to get configured username
+$git config user.email		to check configured email 
+      
+
+```
+### 1.3 Initialize git roject
+```
+git init
+ls -la .git #lsit files git tracking
+```
+
+### 1.4 Git commit log
+```
+$ git log -n 1				-- gives 1 commit change.
+$ git log --since=2016-12-01 --gives commits from the date given
+$ git log --until=2016-12-01 --gives up to the date given
+$ git log ¬¬--author=”Krishna” --gives particular user log
+```
+
+###### #####################################################
+# 2. Branch
+### 2.1 commit Specific file and check status
+###### #####################################################
+```
+$ git add file.txt 	    adds specific file to staging
+$ git commit file.txt 	adds file from staging to repository
+
+$ git status            gives status of files  
+
+$ git commit -m "add git file to project"
+```
+
+###### #####################################################
+### 2.2 Working in Master branch:
 ###### #####################################################
 Clone the git repo to local.
 ```
@@ -10,7 +63,7 @@ $git push  		  	        #Push to repo
 ```
 
 ###### #####################################################
-# 2. Working in a branch:
+### 2.3 Working in a branch:
 ###### #####################################################
 ```
 $cd git_project   	#move to the project directory  
