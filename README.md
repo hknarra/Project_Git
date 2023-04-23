@@ -111,8 +111,9 @@ $git pull origin master      #Pull other changes
 $git add.
 $git commit -m 'commit-TR-2235_pull_for_'
 $git push -u origin <branch_name>
+
 link is generated --check with this link in browser or go to bitbucket and check
--->in git --my work 
+-->in git --my work or pull requests
 -->you get option as Create pull request (select this)
 -->give branch details (destination)
 -->give reviewer details done.
