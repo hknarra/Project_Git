@@ -106,6 +106,7 @@ $git branch -d branch1
 ```
 $git checkout 'branch1'      #check out to branch1
 $git pull origin master      #Pull other changes
+$git pull origin main_remote_branch #this is main branch in repo
 
 --work on the code
 $git add.
