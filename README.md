@@ -66,19 +66,19 @@ $git push  		  	        #Push to repo
 ### 2.3 Working in a branch and change to master and merge branch:
 ###### #####################################################
 ```
-$cd git_project   	#move to the project directory  
-$git remote set-url origin git@github.com:USERNAME/REPOSITORY.git set remote repo
-$git init    		#initializing the current working directory
+$cd git_project   	         # move to the project directory  
+$git remote set-url origin git@github.com:USERNAME/REPOSITORY.git      # set remote repo
+$git init    		             # initializing the current working directory
 
 
 Branch:
-$git branch   			shows list of branches in our local machine
-$git branch branch1		create new branch
+$git branch   			         shows list of branches in our local machine
+$git branch branch1		     create new branch
 $git checkout 'branch1'	  #switches to new branch ‘branch1’
 #Work on code or pull from master.
 
-$git add .			             ==>add files to staging 
-$git commit -m "commit1" 	==>add files to repo
+$git add .			              ==>add files to staging 
+$git commit -m "commit1" 	 ==>add files to repo
 
 Fetch (any other changes by others) from master:
 $git fetch --all
