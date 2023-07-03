@@ -77,8 +77,8 @@ $git branch branch1		create new branch
 $git checkout 'branch1'	  #switches to new branch ‘branch1’
 #Work on code or pull from master.
 
-$git add .			add files to staging 
-$git commit -m "commit1" 	add files to repo
+$git add .			             ==>add files to staging 
+$git commit -m "commit1" 	==>add files to repo
 
 Fetch (any other changes by others) from master:
 $git fetch --all
@@ -104,9 +104,10 @@ $git branch -d branch1
 ### 2.3 Working in a branch and creating pull request
 ###### #####################################################
 ```
-$git checkout 'branch1'      #check out to branch1
 $git pull origin master      #Pull other changes
 $git pull origin main_remote_branch #this is main branch in repo
+$git checkout 'branch1'      #check out to branch1
+
 
 --work on the code
 $git add.
