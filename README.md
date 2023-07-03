@@ -27,7 +27,7 @@ $git config user.email		to check configured email
 ### 1.3 Initialize git roject
 ```
 git init
-ls -la .git #lsit files git tracking
+ls -la .git #list files git tracking
 ```
 
 ### 1.4 Git commit log
@@ -74,7 +74,7 @@ $git init    		#initializing the current working directory
 Branch:
 $git branch   			shows list of branches in our local machine
 $git branch branch1		create new branch
-$git checkout 'branch1'	switches to new branch ‘branch1’
+$git checkout 'branch1'	  #switches to new branch ‘branch1’
 #Work on code or pull from master.
 
 $git add .			add files to staging 
