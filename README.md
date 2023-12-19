@@ -42,11 +42,12 @@ $ git log ¬¬--author=”Krishna” --gives particular user log
 ### 2.1 commit Specific file and check status
 ###### #####################################################
 ```
-$ git add file.txt 	    #adds specific file to staging
-$ git commit file.txt 	  #adds file from staging to repository
-$ git status            #gives status of files  
+$ git add file.txt 	        # adds specific file to staging
+$ git commit file.txt 	     # adds file from staging to repository
+$ git status                # gives status of files  
 $ git commit -m "add git file to project"
 $ git reset --soft HEAD~1   # to go one commit back
+$ git checkout -            # to go back to previous branch
 ```
 
 ###### #####################################################
