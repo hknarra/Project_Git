@@ -214,5 +214,21 @@ Remote mail from bit bucket doesn’t match with local mail id.
 $git commit --amend --author=”git_name <git_mail>”
 ```
 
+###### #####################################################
+# 6. Git stash
+###### #####################################################
+### 6.1 stash changes in branch1 and working on branch2:
+```
+git stash save "change to add loop"
+git stash list
+git checkout branch2
+merge branch2
+git checkout branch1
+git stash apply 0 	# 0 (zero)
+```
 
+### 6.2 Change 2 files and if you want to add only only file:
+```
+git add -p  # we can check each change (yes/no)
+```
 
