@@ -112,7 +112,7 @@ $git checkout 'branch1'      #check out to branch1
 --work on the code
 $git add.
 $git commit -m 'commit-TR-2235_pull_for_'
-$git push -u origin <branch_name>
+$git push -u origin <branch_name> (or) $git push origin <branch_name> --set-upstream
 
 link is generated --check with this link in browser or go to bitbucket and check
 -->in git --my work or pull requests
